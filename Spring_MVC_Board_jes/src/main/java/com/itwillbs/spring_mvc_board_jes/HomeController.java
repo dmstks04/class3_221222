@@ -16,6 +16,8 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
+		// esjoo 브랜치에서 추가한 내용
+		
 		return "index";
 	}
 	
